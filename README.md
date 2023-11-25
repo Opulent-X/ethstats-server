@@ -22,6 +22,7 @@ Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/goerli/ethstats-server
 cd ethstats-server
+sudo npm install -g --unsafe-perm=true --allow-root
 npm install
 sudo npm install -g grunt-cli
 ```
