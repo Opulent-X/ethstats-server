@@ -38,6 +38,14 @@ To build the static files for a network other than Ethereum copy and change src/
 ```bash
 grunt poa --configPath="src/js/someOtherConfig.js"
 ```
+#### Configure
+Define some setting to environment file (.env)
+
+```bash
+PORT=3030
+WS_SECRET=beta-net-stats-has-a-secret
+```
+
 
 #### Run
 Start a node process and pass the websocket secret to it.
@@ -45,7 +53,7 @@ Start a node process and pass the websocket secret to it.
 ```bash
 WS_SECRET="asdf" npm start
 ```
-Find the interface at http://localhost:3000
+Find the interface at http://localhost:3030
 
 ## Proof-of-Work (Legacy)
 
