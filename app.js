@@ -2,7 +2,7 @@ var _ = require('lodash');
 var logger = require('./lib/utils/logger');
 var chalk = require('chalk');
 var http = require('http');
-
+require('dotenv').config();
 // Init WS SECRET
 var WS_SECRET;
 
