@@ -48,13 +48,22 @@ WS_SECRET=beta-net-stats-has-a-secret
 ```
 
 
-#### Run
+#### Run (Test)
 Start a node process and pass the websocket secret to it.
 
 ```bash
 WS_SECRET="asdf" npm start
 ```
+
+#### Run (Production)
+Start a node process and pass the websocket secret to it.
+
+```bash
+pm2 start npm --name "beta-stats-server" -- start
+```
 Find the interface at http://localhost:3030
+
+
 
 ## Proof-of-Work (Legacy)
 
